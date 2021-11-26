@@ -37,7 +37,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/Users/benperez/Documents/The Column Data Hackathon 2021-10-23/DashWebApp/venv"
+VIRTUAL_ENV="/Users/benperez/Documents/The Column Data Hackathon 2021-10-23/ColumnDataHub/venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

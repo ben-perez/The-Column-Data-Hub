@@ -29,7 +29,7 @@ end
 # unset irrelevant variables
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV "/Users/benperez/Documents/The Column Data Hackathon 2021-10-23/DashWebApp/venv"
+set -gx VIRTUAL_ENV "/Users/benperez/Documents/The Column Data Hackathon 2021-10-23/ColumnDataHub/venv"
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/bin" $PATH
