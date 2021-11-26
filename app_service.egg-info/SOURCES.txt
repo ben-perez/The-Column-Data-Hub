@@ -1,0 +1,9 @@
+setup.py
+app_service/__init__.py
+app_service/core.py
+app_service/html_parser.py
+app_service/models.py
+app_service.egg-info/PKG-INFO
+app_service.egg-info/SOURCES.txt
+app_service.egg-info/dependency_links.txt
+app_service.egg-info/top_level.txt
