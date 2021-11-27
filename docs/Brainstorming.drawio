@@ -302,6 +302,9 @@
                 <mxCell id="qSjSc8NqA4apxv7oYFU7-10" value="Update SQL tables with new data" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
                     <mxGeometry x="1060" y="1370" width="70" height="40" as="geometry"/>
                 </mxCell>
+                <mxCell id="qSjSc8NqA4apxv7oYFU7-11" value="Combine parsed HTML with data" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="930" y="1400" width="120" height="70" as="geometry"/>
+                </mxCell>
             </root>
         </mxGraphModel>
     </diagram>
