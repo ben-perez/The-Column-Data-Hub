@@ -1,7 +1,4 @@
-# Python package
-# Create and test a Python package on multiple Python versions.
-# Add steps that analyze code, save the dist with the build record, publish to a PyPI-compatible index, and more:
-# https://docs.microsoft.com/azure/devops/pipelines/languages/python
+# Test all 
 
 trigger:
 - main
@@ -12,7 +9,7 @@ pool:
 steps:
 - task: UsePythonVersion@0
   inputs:
-    versionSpec: '3.9'
+    versionSpec: '3.8.8'
 
 - script: |
     python -m pip install --upgrade pip
@@ -21,5 +18,10 @@ steps:
 
 - script: |
     pip install pytest pytest-azurepipelines
+    pip install pytest-cov
     pytest
-  displayName: 'pytest'
+  displayName: 'Install pytest'
+
+- script: |
+    python -m pytest --cov=app_service tests
+  displayName: "pytest"
